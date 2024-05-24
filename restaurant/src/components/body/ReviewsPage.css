@@ -1,0 +1,11 @@
+/* Reviews page */
+.reviews-page {
+    padding: 2rem;
+}
+
+.reviews-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}

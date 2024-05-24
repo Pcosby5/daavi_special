@@ -1,0 +1,94 @@
+/* Navbar.css  */
+header {
+    /* background-color: #333; */
+    color: #fff;
+    /* padding: 1rem; */
+    margin-top: 10px;
+    margin-bottom: 10rem;
+    align-items: right;
+    margin-right: 2em;
+}
+/*
+header nav .nav-button {
+    background-color: hsl(0, 0%, 49%);
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 25rem;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+
+} */
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: hsl(120, 4%, 91%);
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    position: relative;
+}
+
+.nav-button {
+    list-style-type: none;
+    display: flex;
+    align-items: right;
+    background-color: hsl(0, 0%, 49%);
+    /* color: #fff; */
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 25rem;
+    cursor: pointer;
+    font-weight: bold;
+    float: right;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+header nav li {
+    margin-left: 2rem;
+    float: right;
+    align-content: left;
+    /* background-color: rgb(233, 218, 218); */
+}
+
+header nav .nav-logo {
+    width: 100px;
+    height: 100px;
+    margin-left: 2px;
+    align-items: left;
+    float: right;
+    position: relative;
+    margin-bottom: auto;
+}
+
+
+header nav li a {
+    color: #18a8a6;
+    text-decoration: none;
+    font-weight: bold;
+    align-items: right;
+    position: relative;
+    /* background-color: #333; */
+    float: right;
+
+
+
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
